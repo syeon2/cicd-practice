@@ -14,4 +14,9 @@ public class TestingController {
 		log.info("good");
 		return "good";
 	}
+
+	@GetMapping("gooddddd")
+	public String 굿이다() {
+		return "hello";
+	}
 }
