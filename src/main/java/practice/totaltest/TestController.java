@@ -20,4 +20,10 @@ public class TestController {
 		log.info("suyeon");
 		return "suyeon";
 	}
+
+	@GetMapping("/hello")
+	public String hello() {
+		log.info("hello");
+		return "hello";
+	}
 }
