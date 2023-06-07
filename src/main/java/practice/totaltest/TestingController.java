@@ -16,7 +16,7 @@ public class TestingController {
 	}
 
 	@GetMapping("gooddddd")
-	public String 굿이다() {
+	public String goooooooood() {
 		return "hello";
 	}
 }
