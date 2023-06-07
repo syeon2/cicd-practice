@@ -14,4 +14,11 @@ public class TestingController {
 		log.info("good");
 		return "good";
 	}
+
+
+	@GetMapping("/hellohello2")
+	public String good2() {
+		log.info("good");
+		return "good";
+	}
 }
